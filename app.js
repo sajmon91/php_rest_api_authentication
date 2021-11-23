@@ -169,17 +169,17 @@
         <form id='update_account_form'>
             <div class="form-group">
                 <label for="firstname">Firstname</label>
-                <input type="text" class="form-control" name="firstname" id="firstname" required value="` + data.data.firstname + `" />
+                <input type="text" class="form-control" name="firstname" id="firstname" required value="${data.data.firstname}" />
             </div>
  
             <div class="form-group">
                 <label for="lastname">Lastname</label>
-                <input type="text" class="form-control" name="lastname" id="lastname" required value="` + data.data.lastname + `" />
+                <input type="text" class="form-control" name="lastname" id="lastname" required value="${data.data.lastname}" />
             </div>
  
             <div class="form-group">
                 <label for="email">Email</label>
-                <input type="email" class="form-control" name="email" id="email" required  value="` + data.data.email + `" />
+                <input type="email" class="form-control" name="email" id="email" required  value="${data.data.email}" />
             </div>
  
             <div class="form-group">
